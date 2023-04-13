@@ -1,0 +1,156 @@
+* {
+    margin: 0px;
+}
+
+.bigContainer {
+    background-color: lavender;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    height: 100vh;
+    padding: 0px;
+}
+
+.leftSidebarContainer {
+    background-color: lightskyblue;
+    border: 1px dashed black;
+    display: flex;
+    flex-direction: column;
+}
+
+.leftLogoContainer,
+.leftSmallContainer {
+    border: 1px dashed black;
+    margin: 20px;
+}
+
+
+.logoCard,
+.sidebarCard {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 20px;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+
+}
+
+.rightContainer {
+    display: grid;
+    grid-template-rows: 1.5fr 5fr;
+}
+
+.rightTopContainer,
+.rightSmallBottomContainer {
+    border: 1px dashed black;
+    display: grid;
+}
+
+.rightTopContainer {
+    display: grid;
+    grid-template-columns: 3fr 1.25fr;
+    grid-template-rows: 3fr 4fr;
+    background-color: white;
+    padding: 15px;
+    gap: 15px;
+}
+
+.rightTopContainer > div {
+    border: 1px dashed pink;
+}
+
+
+.topSubContainer1 {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.topSubContainer2{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    align-items: center;
+}
+
+.topSubContainer3 {
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.topSubContainer4 {
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+
+}
+
+.topSubContainer4 > button {
+    border: none;
+    background-color: paleturquoise;
+    border-radius: 10px;
+    height: 30%;
+    width: 25%;
+}
+
+.rightSmallBottomContainer {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.yourProjectsContainer,
+.rightSmallSidebarContainer {
+    border: 1px dashed darksalmon;
+    padding: 15px;
+    margin-bottom: 40px;
+}
+
+.yourProjectsContainer {
+    display: grid;
+    grid-template-rows: 1fr 20fr;
+
+}
+
+
+.projectCardContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 15px;
+}
+
+.projectCard {
+    background-color: lightgoldenrodyellow;
+    border-radius: 5px;
+}
+
+
+.rightSmallSidebarContainer {
+    display: grid;
+    grid-template-rows: 5fr 4fr;
+}
+
+.announcementContainer,
+.trendingContainer {
+    display: grid;
+    border: 1px dashed purple;
+    grid-template-rows: 1fr 10fr;
+}
+
+.announcementCardContainer,
+.trendingCardContainer {
+    display: grid;
+    grid-template-rows: repeat(1fr);
+    background-color: white;
+    border-radius: 5px;
+}
+
+.announcementCard,
+.trendingCard {
+    border: 1px dashed orangered;
+    margin: 2%;
+}

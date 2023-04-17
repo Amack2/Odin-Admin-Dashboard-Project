@@ -6,6 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&display=swap" rel="stylesheet">
+
     <title>Document</title>
 </head>
 
@@ -14,114 +21,162 @@
         <div class="leftSidebarContainer">
             <div class="leftLogoContainer" id="logoContainer">
                 <div class="logoCard">
-                    <div class="icon">:3</div>
+                    <i class="material-symbols-outlined">
+                        taunt
+                    </i>
                     <div class="menuName">Dashboard</div>
                 </div>
             </div>
             <div class="leftSmallContainer" id="sidebarTop">
                 <div class="sidebarCard">
-                    <div class="icon">hi</div>
+                    <i class="material-icons">home</i>
                     <div class="menuName">Home</div>
                 </div>
                 <div class="sidebarCard">
-                    <div class="icon">hi</div>
+                    <i class="material-icons">account_circle</i>
                     <div class="menuName">Profile</div>
                 </div>
                 <div class="sidebarCard">
-                    <div class="icon">hi</div>
+                    <i class="material-icons">message
+                    </i>
                     <div class="menuName">Messages</div>
                 </div>
                 <div class="sidebarCard">
-                    <div class="icon">hi</div>
+                    <i class="material-icons">history</i>
                     <div class="menuName">History</div>
                 </div>
                 <div class="sidebarCard">
-                    <div class="icon">hi</div>
+                    <i class="material-icons">task_alt</i>
                     <div class="menuName">Tasks</div>
                 </div>
                 <div class="sidebarCard">
-                    <div class="icon">hi</div>
+                    <i class="material-icons">group</i>
                     <div class="menuName">Communities</div>
                 </div>
             </div>
             <div class="leftSmallContainer" id="sidebarBottom">
                 <div class="sidebarCard">
-                    <div class="icon">hi</div>
+                    <i class="material-icons">settings</i>
                     <div class="menuName">Settings</div>
                 </div>
                 <div class="sidebarCard">
-                    <div class="icon">hi</div>
+                    <i class="material-icons">help_outline</i>
                     <div class="menuName">Support</div>
                 </div>
                 <div class="sidebarCard">
-                    <div class="icon">hi </div>
+                    <i class="material-icons">lock</i>
                     <div class="menuName">Privacy</div>
                 </div>
             </div>
         </div>
         <div class="rightContainer">
             <div class="rightTopContainer">
-              <div class="topSubContainer1">
-                <div class> MAG</div>
-                <form action="">
-                    <input type="search">
-                </form> 
-              </div>
-              <div class="topSubContainer2">
-<div>A</div>
-<div>PROFILE PICTURE</div>
-<div>USER NAME</div>
+                <div class="topSubContainer1">
+                    <div class="magGlassContainer">
+                        <i class="material-icons">search</i>
+                    </div>
 
-              </div>
-              <div class="topSubContainer3">
-                <div class="profilePic">pic</div>
-                <div class="nameCard">
-                    <p>Hi there,</p>
-                    <p>USERNAME</p>
+                    <div class="searchbar">
+                        <form action="">
+                            <label for="searchbar"></label>
+                            <input type="search" id="searchbar">
+                        </form>
+                    </div>
                 </div>
-              </div>
-              <div class="topSubContainer4" id="btnContainer">
-                <button class="btn1">New</button>
-                <button class="btn2">Upload</button>
-                <button class="btn3">Share</button>
-              </div>
+                <div class="topSubContainer2">
+                    <i class="material-symbols-outlined">notifications_active</i>
+                    <img src="img/avatar.png" alt="Avatar" class="avatarSmall">
+                    <div class="username">@FluffyGeorge</div>
+                </div>
+                <div class="topSubContainer3">
+                    <div class="profilePic">
+                        <img src="img/avatar.png" alt="Avatar" Class="avatar">
+                    </div>
+                    <div class="nameCard">
+                        <div id="greetings">Hi there,</div>
+                        <div id="username">George Ma @FluffyGeorge</div>
+                    </div>
+                </div>
+                <div class="topSubContainer4" id="btnContainer">
+                    <button class="btn1">New</button>
+                    <button class="btn2">Upload</button>
+                    <button class="btn3">Share</button>
+                </div>
             </div>
             <div class="rightSmallBottomContainer">
                 <div class="yourProjectsContainer">
                     <div class="title">Your Projects</div>
                     <div class="projectCardContainer">
-                        <div class="projectCard"></div>
-                        <div class="projectCard"></div>
-                        <div class="projectCard"></div>
-                        <div class="projectCard"></div>
-                        <div class="projectCard"></div>
-                        <div class="projectCard"></div>
+                        <div class="projectCard">
+                            <div class="title">Bananas are up!</div>
+                            <div class="content">wow you should have bought nanners yesterday pal!</div>
+                            <div class="iconContainer"><i class="material-symbols-outlined">favorite</i><i
+                                    class="material-symbols-outlined">lightbulb_circle</i><i
+                                    class="material-symbols-outlined">share</i></div>
+                        </div>
+                        <div class="projectCard">
+                            <div class="title">Banana-grams surpass email</div>
+                            <div class="content">Banada Post says Banadians are sending over 30 000 banana-grams a day!</div>
+                            <div class="iconContainer"><i class="material-symbols-outlined">favorite</i><i
+                                    class="material-symbols-outlined">lightbulb_circle</i><i
+                                    class="material-symbols-outlined">share</i></div>
+                        </div>
+                        <div class="projectCard">
+                            <div class="title"></div>
+                            <div class="content"></div>
+                            <div class="iconContainer"><i class="material-symbols-outlined">favorite</i><i
+                                    class="material-symbols-outlined">lightbulb_circle</i><i
+                                    class="material-symbols-outlined">share</i></div>
+                        </div>
+                        <div class="projectCard">
+                            <div class="title"></div>
+                            <div class="content"></div>
+                            <div class="iconContainer"><i class="material-symbols-outlined">favorite</i><i
+                                    class="material-symbols-outlined">lightbulb_circle</i><i
+                                    class="material-symbols-outlined">share</i></div>
+                        </div>
+                        <div class="projectCard">
+                            <div class="title"></div>
+                            <div class="content"></div>
+                            <div class="iconContainer"><i class="material-symbols-outlined">favorite</i><i
+                                    class="material-symbols-outlined">lightbulb_circle</i><i
+                                    class="material-symbols-outlined">share</i></div>
+                        </div>
+                        <div class="projectCard">
+                            <div class="title"></div>
+                            <div class="content"></div>
+                            <div class="iconContainer"><i class="material-symbols-outlined">favorite</i><i
+                                    class="material-symbols-outlined">lightbulb_circle</i><i
+                                    class="material-symbols-outlined">share</i></div>
+                        </div>
                     </div>
                 </div>
-                <div class="rightSmallSidebarContainer">
-                    <div class="announcementContainer">
-                        <div class="title">Announcements</div>
-                        <div class="announcementCardContainer">
-                            <div class="announcementCard"></div>
-                            <div class="announcementCard"></div>
-                            <div class="announcementCard"></div>
-                        </div>
+            
+            <div class="rightSmallSidebarContainer">
+                <div class="announcementContainer">
+                    <div class="title">Announcements</div>
+                    <div class="announcementCardContainer">
+                        <div class="announcementCard"></div>
+                        <div class="announcementCard"></div>
+                        <div class="announcementCard"></div>
                     </div>
-                    <div class="trendingContainer">
-                        <div class="title">Trending</div>
-                        <div class="trendingCardContainer">
-                            <div class="trendingCard"></div>
-                            <div class="trendingCard"></div>
-                            <div class="trendingCard"></div>
-                            <div class="trendingCard"></div>
-                        </div>
+                </div>
+                <div class="trendingContainer">
+                    <div class="title">Trending</div>
+                    <div class="trendingCardContainer">
+                        <div class="trendingCard"></div>
+                        <div class="trendingCard"></div>
+                        <div class="trendingCard"></div>
+                        <div class="trendingCard"></div>
                     </div>
                 </div>
             </div>
-
-
-
+            </div>
         </div>
+
+
+
+    </div>
     </div>
 </body>
 

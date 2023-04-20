@@ -354,8 +354,8 @@ input::-webkit-search-cancel-button {
 }
 
 .announcementCard:hover {
-    border: 1px solid var(--Slate50);
-    border-radius: 5px;
+    padding-left: 5px;
+    transition: all 0.4s ease-in-out;
 }
 
 .trendingCard {
@@ -407,4 +407,6 @@ input::-webkit-search-cancel-button {
 
 .trendingCard:hover {
     padding-left: 5px;
+    transition: all 0.4s ease-in-out;
+
 }
